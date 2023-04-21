@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_deep_link"
+    app:startDestination="@id/deepLinkFragment">
+
+    <fragment
+        android:id="@+id/deepLinkFragment"
+        android:name="com.smallmarker.jetpackpractice.navigation.fragment.DeepLinkFragment"
+        android:label="DeepLink"
+        tools:layout="@layout/fragment_deep_link" />
+
+</navigation>

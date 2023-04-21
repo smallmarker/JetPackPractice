@@ -17,10 +17,5 @@
         android:id="@+id/secondFragment"
         android:name="com.smallmarker.jetpackpractice.navigation.fragment.SecondFragment"
         android:label="Second"
-        tools:layout="@layout/fragment_second">
-
-        <deepLink
-            android:id="@+id/deepLink"
-            app:uri="https://www.example.com" />
-    </fragment>
+        tools:layout="@layout/fragment_second" />
 </navigation>
