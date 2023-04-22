@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".navigation.fragment.SecondFragment">
 
     <TextView
@@ -11,4 +13,15 @@
         android:layout_gravity="center"
         android:text="@string/hello_second_fragment" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btn_extras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击显示动画过渡" />
+
+    <include
+        layout="@layout/shared_element_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>

@@ -18,4 +18,14 @@
         android:name="com.smallmarker.jetpackpractice.navigation.fragment.SecondFragment"
         android:label="Second"
         tools:layout="@layout/fragment_second" />
+
+    <activity
+        android:id="@+id/deepLinkActivity"
+        android:name="com.smallmarker.jetpackpractice.navigation.DeepLinkActivity"
+        android:label="DeepLinkActivity" />
+
+    <dialog
+        android:id="@+id/shareElementDialog"
+        android:name="com.smallmarker.jetpackpractice.navigation.dialog.ShareElementDialog"
+        android:label="ShareElementDialog" />
 </navigation>
